@@ -1,0 +1,15 @@
+.form_tambah_buku table{
+	position:relative;
+	width: 1000px;
+	height:700px;
+}
+.form_select{
+	border:none;
+	background: silver;
+	border-radius:2px;
+	color:white;
+}
+.form_tambah_user table{
+width: 400px;
+height:300px;	
+}

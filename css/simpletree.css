@@ -1,0 +1,26 @@
+.treeview ul {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+.treeview li {
+	background:url(list.gif) no-repeat left center;
+	list-style-type: none;
+	padding-left: 22px;
+	margin-bottom: 3px;
+}
+
+.treeview li.submenu {
+	background:url(closed.gif) no-repeat left 1px;
+	cursor: hand !important;
+	cursor: pointer !important;
+}
+
+.treeview li.submenu ul {
+	display: none;
+}
+
+.treeview .submenu ul li {
+	cursor: default;
+}
